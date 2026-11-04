@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nightverse | Jogos e aventuras</title>
+    <meta
+      name="description"
+      content="Descubra jogos, mundos imersivos e aventuras inesquecíveis na Nightverse."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="container nav">
+          <a href="#" class="brand" aria-label="Página inicial da Nightverse">
+            <span class="brand-mark">N</span>
+            <span>Night<span class="brand-accent">verse</span></span>
+          </a>
+
+          <nav class="menu" aria-label="Navegação principal">
+            <a href="#">Início</a>
+            <a href="#games">Jogos</a>
+            <a href="#news">Novidades</a>
+            <a href="#about">Sobre</a>
+            <a href="#contact">Contato</a>
+          </nav>
+
+          <a href="#contact" class="button button-primary">Participe</a>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="hero-overlay"></div>
+          <div class="container hero-inner">
+            <div class="hero-copy">
+              <p class="eyebrow">Explore um novo nível</p>
+              <h1>Os melhores jogos estão aqui</h1>
+              <p class="lead">
+                Descubra mundos imersivos, desafios intensos e aventuras inesquecíveis para quem
+                busca adrenalina, boas histórias e estratégia.
+              </p>
+
+              <div class="hero-actions">
+                <a href="#games" class="button button-primary">Jogue agora</a>
+                <a href="#news" class="button button-secondary">Descubra</a>
+              </div>
+
+              <div class="tag-row" aria-label="Categorias em destaque">
+                <span>Tiro em primeira pessoa</span>
+                <span>Mundo aberto</span>
+                <span>RPG</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="cards-band" id="games">
+          <div class="container cards-grid">
+            <article class="mini-card card-featured">
+              <div class="mini-image image-one"></div>
+              <div class="mini-text">
+                <span class="label">Em destaque</span>
+                <h3>Cyberpunk 2077</h3>
+              </div>
+            </article>
+
+            <article class="mini-card">
+              <div class="mini-image image-two"></div>
+              <div class="mini-text">
+                <span class="label">Ação</span>
+                <h3>Elden Ring</h3>
+              </div>
+            </article>
+
+            <article class="mini-card">
+              <div class="mini-image image-three"></div>
+              <div class="mini-text">
+                <span class="label">Aventura</span>
+                <h3>Red Dead Redemption 2</h3>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="content-area" id="news">
+          <div class="container content-grid">
+            <article class="spotlight-card">
+              <div class="spotlight-image"></div>
+              <div class="spotlight-body">
+                <span class="pill">Jogos recentes</span>
+                <h2>Uma aventura épica em Baldur’s Gate 3.</h2>
+                <p>
+                  Reúna seu grupo, explore um mundo fantástico e enfrente desafios em uma jornada
+                  onde cada escolha pode mudar a história.
+                </p>
+                <a href="#" class="button button-primary small">Saiba mais</a>
+              </div>
+            </article>
+
+            <aside class="sidebar">
+              <div class="sidebar-box">
+                <p class="eyebrow small">Em alta</p>
+                <h3>Favoritos da semana</h3>
+                <ul>
+                  <li>Hades</li>
+                  <li>Dota 2</li>
+                  <li>God of War</li>
+                </ul>
+              </div>
+            </aside>
+          </div>
+        </section>
+
+        <section class="gallery-section" id="about">
+          <div class="container">
+            <div class="section-title">
+              <p class="eyebrow">Novidades</p>
+              <h2>Novos mundos para descobrir</h2>
+            </div>
+
+            <div class="gallery-grid">
+              <article class="gallery-item large-item">
+                <div class="gallery-image img-a"></div>
+                <div class="item-info">
+                  <span class="label">Ação</span>
+                  <h3>Hades</h3>
+                </div>
+              </article>
+
+              <article class="gallery-item">
+                <div class="gallery-image img-b"></div>
+                <div class="item-info">
+                  <span class="label">Estratégia</span>
+                  <h3>Dota 2</h3>
+                </div>
+              </article>
+
+              <article class="gallery-item">
+                <div class="gallery-image img-c"></div>
+                <div class="item-info">
+                  <span class="label">Aventura</span>
+                  <h3>God of War</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer" id="contact">
+        <div class="container footer-inner">
+          <div class="footer-brand-block">
+            <a href="#" class="brand" aria-label="Página inicial da Nightverse">
+              <span class="brand-mark">N</span>
+              <span>Night<span class="brand-accent">verse</span></span>
+            </a>
+            <p>Onde histórias viram jogos e cada partida se torna inesquecível.</p>
+          </div>
+
+          <nav class="footer-links" aria-label="Links do rodapé">
+            <a href="#">Início</a>
+            <a href="#games">Jogos</a>
+            <a href="#news">Análises</a>
+            <a href="#about">Sobre</a>
+          </nav>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
